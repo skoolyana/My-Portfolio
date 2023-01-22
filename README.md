@@ -1,8 +1,5 @@
-##  npx create-next-app@latest --ts my-portfolio
-
-## npm install -D tailwindcss
-
-## npx tailwindcss init
+##  npm install -D tailwindcss postcss autoprefixer
+## npx tailwindcss init -p
 
 
 
