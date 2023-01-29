@@ -7,12 +7,11 @@ export default function About({}:Props) {
   return (
     <motion.div 
     initial={{
-        x:-200,
+      
         opacity:0,
     }}
 
     whileInView={{
-        x:0,
         opacity:1
 
     }}
@@ -25,8 +24,8 @@ export default function About({}:Props) {
     }}
      
     
-    className='flex relative flex-col text-center 
-    md:text-left md:flex-row max-w-7xl px-10 h-screen justify-evenly mx-auto items-center'>
+    className='flex relative h-screen flex-col md:flex-row
+    text-center md:text-left  max-w-7xl px-10  justify-evenly mx-auto items-center'>
  
     <h3 className='absolute top-24 uppercase tracking-[20px] 
     text-gray-500 text-2xl'> About </h3>
@@ -52,8 +51,9 @@ export default function About({}:Props) {
     alt=''  
     src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRXgSES7_zDfde6kWh7lwUs6HA4VuMbsyENQ&usqp=CAU'
     
-    className='-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full 
-    object-cover md:rounded-lg md:w-64,h-95 xl:w-[500px],h-[600px]'
+    className="-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full 
+    object-cover md:rounded-lg md:w-32,md:h-32 
+    xl:w-[300px],h-[300px]"
     >
 
     </motion.img>
